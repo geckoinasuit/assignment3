@@ -1,0 +1,59 @@
+header {
+    margin-bottom: 100px;
+}
+
+html {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS", "sans-serif";
+    font-size: 18px;
+}
+
+body {
+    background-image: url(Images/gradient.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.h1title {
+    margin-left: auto;
+    color: dimgrey;
+    border-radius: 40px;
+    border: 1px;
+    border-style: solid;
+    border-color: floralwhite;
+
+}
+
+.speciestitle {
+    margin-left: auto;
+    color: dimgrey;
+}
+
+.h2 {
+    margin-left: 50px;
+    color: darkslategrey;
+    text-decoration: underline;
+
+
+}
+
+.mainnav1 {
+    margin-left: 50px;
+    color: darkslategrey;
+    font-size: 1.17em;
+    font-style: italic;
+}
+
+.mainnav2 {
+    color: darkslategrey;
+    font-size: 1.17em;
+    font-style: italic;
+    margin-left: 10px
+}
+.paragraph {
+    color: darkslategrey;
+    margin-left: 60px;
+    
+}
