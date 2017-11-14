@@ -15,14 +15,9 @@ body {
     height: 100vh;
 }
 
-
 .h1title {
     margin-left: auto;
     color: dimgrey;
-    border-radius: 40px;
-    border: 1px;
-    border-style: solid;
-    border-color: floralwhite;
 
 }
 
@@ -40,20 +35,74 @@ body {
 }
 
 .mainnav1 {
-    margin-left: 50px;
+    margin-left: inherit;
     color: darkslategrey;
     font-size: 1.17em;
     font-style: italic;
+    float: right;
 }
 
 .mainnav2 {
     color: darkslategrey;
     font-size: 1.17em;
     font-style: italic;
-    margin-left: 10px
+    margin-left: 10px;
+    float: right;
+    list-style-type: none;
+    li
 }
 .paragraph {
     color: darkslategrey;
     margin-left: 60px;
     
+}
+a:hover{
+    color: antiquewhite
+}
+a:visited{
+    color: darkgray
+}
+a{
+    color: darkslategray
+}
+.pictures-section {
+    background-color: rgba(229, 255, 236, 0.1);
+    width: 100%;
+}
+
+.pictures {
+    list-style: none;
+    width: 100%;
+}
+
+.pictures li {
+    display: block;
+    float: left;
+    width: 33.3%;
+}
+
+.photo {
+    height: 150px;
+}
+
+.photo img {
+    opacity: 0.7;
+    width: auto;
+    height: 150px;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.container{
+    border-style: dotted;
+    border-color: darkslategray;
 }
